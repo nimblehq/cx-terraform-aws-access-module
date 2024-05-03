@@ -9,6 +9,6 @@ variable "developers_emails" {
 }
 
 variable "infra_service_accounts_emails" {
-  type        = string
+  type        = list(string)
   description = "List of emails of the service accounts"
 }
